@@ -1,6 +1,6 @@
 import React from "react";
 import { newContextComponents } from "@drizzle/react-components";
-const { ContractData, ContractForm } = newContextComponents;
+const { ContractData/* , ContractForm */ } = newContextComponents;
 
 export default ({ drizzle, drizzleState }) => {
     
@@ -47,5 +47,5 @@ export default ({ drizzle, drizzleState }) => {
                 </p>
             </div>
         </div>
-    )
+    );
 };
